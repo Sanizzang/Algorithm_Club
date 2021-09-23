@@ -8,7 +8,7 @@ public class Main{
 			dwarfs[i] = sc.nextInt();
 			sum += dwarfs[i];
 		}
-		Arrays.sort(a);
+		Arrays.sort(dwarfs);
 		for(int i = 0;i < 9;i++){
 			for(int j = i + 1;j < 9;j++){
 				if(sum - dwarfs[i] - dwarfs[j] == 100){
